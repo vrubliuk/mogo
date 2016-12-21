@@ -12,15 +12,79 @@ body {
 	margin-right: auto;
 	text-align: center;
 }
+.line {
+	height: 1px;
+	width: 58px;
+	border: solid #f38181 1px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*SECTION 1*/
 #section1 {
+	color: white;
 	border: solid blue 1px;
 	width: 100%;
-	background-image: url('images/1-bg.jpg')
+	height: 1000px;
+	background-image: url('images/1-bg.jpg');
+	background-position: center; 
+ 	background-repeat: no-repeat;
 }
 #logo {
-	text-align: left;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 }
 #menu {
-	text-align: right;
+	float: right;
+	text-transform: uppercase;
+}
+.menuItem {
+	line-height: 50px;
+}
+.menuItem:hover {
+	color: #fce38a;
+	border-bottom: solid 3px #fce38a;
+}
+.menuItem:hover > img {
+	background:#fce38a;
+}
+#menu img {
+	vertical-align: top;
+}
+#section1 h3 {
+	clear: both;
+}
+#section1 h1 {
+	text-transform: uppercase;
+}
+#section1 .line {
+	border: solid white 1px;
+	background-color: white;
+}
+
+.menuItem2 {
+	width: 280px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: left;
+		/*border: solid white 1px;*/
+}
+.line1 {
+/*display: block;*/
+	height: 1px;
+	width: 58px;
+	border: solid #f38181 1px;
+	background-color: #f38181;
+	float: left;
+}
+.line2 {
+	/*display: block;*/
+	height: 1px;
+	width: 278px;
+	border: solid white 1px;
+	background-color: white;
+		/*float: right;*/
 }
