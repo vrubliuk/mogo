@@ -497,3 +497,132 @@ body {
 	background-color: white;
 	margin-top: -57px;
 }
+
+
+/*SECTION 6*/
+
+#section6 {
+	background-color: white;
+}
+
+#section6 .heading {
+	margin-top: 23px;
+}
+
+#section6 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#section6 .article {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	max-width: 880px;
+	line-height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+
+#s6picture {
+	margin: 10px;
+}
+
+/*ACCORDION STYLES*/
+#accordionContainer {
+	margin: 10px;
+	height: 380px;
+	width: 570px;
+	display: inline-block;
+	/*border: solid black 1px;*/
+	/*overflow: hidden;*/
+	vertical-align: top;
+}
+
+#accordionContainer > div:nth-child(3), #accordionContainer > div:nth-child(5) {
+    margin-top: 9px;
+}
+
+div.accordion {
+	height: 58px;
+    background-color: white;
+    cursor: pointer;
+    /*padding: 18px;*/
+    border: solid 1px #e5e5e5;
+    text-align: left;
+    /*outline: none;*/
+    transition: 0.4s;
+		position: relative;
+}
+
+div.accordion:hover {
+    background-color: #f8f8f8;
+}
+.s6icon {
+	position: absolute;
+	top: 13px;
+	left: 14px;
+}
+div.accordion span {
+	margin-left: 58px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	line-height: 58px;
+}
+.s6arrow {
+	position: absolute;
+	top: 23px;
+	right: 14px;
+}
+
+
+
+/*div.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}*/
+
+/*div.accordion.active:after {
+    content: "\2212";
+}*/
+
+div.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+		border-left: solid 1px #e5e5e5;
+		border-right: solid 1px #e5e5e5;
+		border-bottom: solid 1px #e5e5e5;
+}
+div.panel p {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	color: #b6b6b6;
+	font-style: italic;
+	margin: 15px;
+	line-height: 20px;
+}
+
+
+div.panel.show {
+    opacity: 1;
+    max-height: 179px; 
+    overflow: auto;
+}

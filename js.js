@@ -65,3 +65,13 @@ $(document).mouseup(function (e){
       $(".dropdown-content").css("display", "none");
     }
 });
+
+//ACCORDION
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");   
+  };
+}
