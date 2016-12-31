@@ -24,6 +24,7 @@ window.addEventListener("resize", function () {
     $(".dropdown-content").css("display", "none");
   }
 });
+
 //CHECK WIDTH ON LOAD
 window.onload = function () {  
  var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -47,6 +48,7 @@ window.onload = function () {
 }
  return;
 };
+
 //MENU BUTTON
 $(".dropdown").click(function(){
   var x = $(".dropdown-content").css("display");
@@ -59,9 +61,7 @@ $(".dropdown").click(function(){
 });
 $(document).mouseup(function (e){
     var container1 = $('.dropdown');
-   
-    if (!container1.is(e.target) && container1.has(e.target).length === 0 )
-    {
+    if (!container1.is(e.target) && container1.has(e.target).length === 0 ){
       $(".dropdown-content").css("display", "none");
     }
 });
@@ -71,7 +71,26 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle("show");   
+        $(this).next().toggleClass("show");
+        $(".accordion").not(this).next().removeClass("show");
+        $(".accordion").not(this).children(".s6arrow").attr("src", 'images/6-arrow-down.png');
+        var arrow = $(this).children(".s6arrow").attr("src");
+        if (arrow === "images/6-arrow-down.png") {
+          $(this).children(".s6arrow").attr("src", 'images/6-arrow-up.png');
+        } else {
+          $(this).children(".s6arrow").attr("src", 'images/6-arrow-down.png');
+        }
   };
 }
+
+//OPEN THE FIRST SECTION OF THE ACCORDION ON PAGE LOAD
+$(function(){
+	var acc1 = document.getElementsByClassName("accordion");
+  $(".accordion").first().next().toggleClass("show");
+  $(".accordion").first().children(".s6arrow").attr("src", 'images/6-arrow-up.png');
+});
+
+//CUSTOM SCROLLBAR
+$(function(){
+	$('.test').jScrollPane();
+});
