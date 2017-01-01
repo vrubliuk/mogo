@@ -17,7 +17,7 @@ body {
 	background-color: #fff;
 }
 
-.container {
+.containerMy {
 	border: solid 1px rgba(0, 0, 0, 0);
 	max-width: 1200px;
 	margin-left: auto;
@@ -225,7 +225,7 @@ body {
 
 /*SECTION 2*/
 
-#section2 .container {
+#section2 .containerMy {
 	padding-bottom: 60px;
 }
 
@@ -342,7 +342,7 @@ body {
 	background-color: #95e1d3;
 }
 
-#section3 .container {
+#section3 .containerMy {
 	margin-bottom: -1px;
 }
 
@@ -396,7 +396,7 @@ body {
 	background-color: white;
 }
 
-#section4 .container {
+#section4 .containerMy {
 	padding-bottom: 60px;
 }
 
@@ -508,7 +508,7 @@ body {
 	background-color: white;
 }
 
-#section6 .container {
+#section6 .containerMy {
 	padding-bottom: 60px;
 }
 
@@ -542,7 +542,6 @@ body {
 #s6picture {
 	margin: 10px;
 }
-
 
 /*ACCORDION STYLES*/
 
@@ -625,4 +624,93 @@ div.panel.show {
 	overflow: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+
+/*SECTION 7*/
+
+#section7 {
+	background-color: #f8f8f8;
+}
+
+#section7 table {
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#myCarousel {
+	display: inline-block;
+}
+
+.item {
+	min-height: 290px;
+	max-width: 1040px;
+}
+
+.item img {
+	display: inline-block;
+	margin-top: 65px;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+
+.carouselParagraph {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 65px;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+
+.carouselParagraph p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 35px;
+	color: #b6b6b6;
+	font-style: italic;
+	max-width: 800px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.carouselParagraph .line {
+	margin-top: 20px;
+	margin-right: 15px;
+	float: left;
+}
+
+.carouselParagraph span {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	color: #333333;
+	float: left;
+}
+
+.carouselButton {
+	display: inline-block;
+	margin-top: 2px;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	border-radius: 50%;
+}
+
+.carouselButton:hover {
+	background-color: #ebebeb;
+}
+
+.carouselButton img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#s7breakspace {
+	height: 40px;
+	width: 100%;
 }
