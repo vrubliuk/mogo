@@ -714,3 +714,177 @@ div.panel.show {
 	height: 40px;
 	width: 100%;
 }
+
+/*SECTION 8*/
+#section8 .containerMy {
+	padding-bottom: 80px;
+	max-width: 1230px;
+}
+
+
+#section8 .heading {
+	margin-top: 80px;
+}
+
+#section8 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#section8 .article {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	max-width: 880px;
+	line-height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+
+.outerTileContainer8 {
+	display: inline-block;
+	margin: 13px;
+}
+
+.tileContainer8 {
+	height: 470px;
+	width: 380px;
+	background-color: #95e1d3;
+	position: relative;
+}
+
+.bgPicture {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.coverPicture {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.iconPicture {
+	position: absolute;
+	top: 96px;
+	left: 172px;
+	visibility: hidden;
+}
+
+#section8 > div > div.outerTileContainer8 > h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333333;
+	margin-top: 20px;
+}
+#section8 > div > div.outerTileContainer8 > p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #a0a0a0;
+	margin-top: 5px;
+
+}
+.s8media {
+	position: absolute;
+	/*border: solid 1px red;*/
+	top: 207px;
+	left: 76px;
+	visibility: hidden;
+
+}
+.s8mediaItem {
+	width: 56px;
+	height: 56px;
+	/*border: solid 1px blue;*/
+	display: inline-block;
+	
+	background-color: #fce38a;
+}
+.s8mediaItem:hover {
+	background-color: #f38181;
+}
+.s8mediaItem img {
+	margin-top: 15px;
+}
+
+#s8facebook {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#s8twitter {
+	position: absolute;
+	top: 0px;
+	left: 57px;
+}
+#s8pinterest {
+	position: absolute;
+	top: 0px;
+	left: 114px;
+}
+#s8insta {
+	position: absolute;
+	top: 0px;
+	left: 171px;
+}
+
+
+#s8facebook:hover > img {
+	content: url('images/8-f-active.png');
+}
+#s8twitter:hover > img {
+	content: url('images/8-t-active.png');
+}
+#s8pinterest:hover > img {
+	content: url('images/8-p-active.png');
+}
+#s8insta:hover > img {
+	content: url('images/8-i-active.png');
+}
+
+
+.tile8 {
+	position: absolute;
+}
+
+.tile8:hover {
+	top: -10px;
+	left: -10px;
+}
+
+.tile8:hover>.coverPicture {
+	opacity: 0.8;
+}
+
+
+
+.tile8:hover .s8media {
+	visibility: visible;
+}
+
+
+
+.tileContainer8:hover .s8media {
+	visibility: visible;
+}
+
+.tileContainer8:hover .tile8 {
+	top: -10px;
+	left: -10px;
+}
+
+.tileContainer8:hover .coverPicture {
+	opacity: 0.8;
+}
