@@ -543,6 +543,7 @@ body {
 	margin: 10px;
 }
 
+
 /*ACCORDION STYLES*/
 
 #accordionContainer {
@@ -715,12 +716,13 @@ div.panel.show {
 	width: 100%;
 }
 
+
 /*SECTION 8*/
+
 #section8 .containerMy {
 	padding-bottom: 80px;
 	max-width: 1230px;
 }
-
 
 #section8 .heading {
 	margin-top: 80px;
@@ -781,79 +783,96 @@ div.panel.show {
 	visibility: hidden;
 }
 
-#section8 > div > div.outerTileContainer8 > h4 {
+#section8>div>div.outerTileContainer8>h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #333333;
 	margin-top: 20px;
 }
-#section8 > div > div.outerTileContainer8 > p {
+
+#section8>div>div.outerTileContainer8>p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-style: italic;
 	color: #a0a0a0;
 	margin-top: 5px;
-
 }
+
 .s8media {
 	position: absolute;
-	/*border: solid 1px red;*/
 	top: 207px;
 	left: 76px;
 	visibility: hidden;
-
 }
+
 .s8mediaItem {
 	width: 56px;
 	height: 56px;
-	/*border: solid 1px blue;*/
 	display: inline-block;
-	
 	background-color: #fce38a;
 }
+
 .s8mediaItem:hover {
 	background-color: #f38181;
 }
-.s8mediaItem img {
+
+
+/*.s8mediaItem img {
 	margin-top: 15px;
-}
+}*/
 
 #s8facebook {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	background-image: url('images/8-f.png');
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
 #s8twitter {
 	position: absolute;
 	top: 0px;
 	left: 57px;
+	background-image: url('images/8-t.png');
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
 #s8pinterest {
 	position: absolute;
 	top: 0px;
 	left: 114px;
+	background-image: url('images/8-p.png');
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
 #s8insta {
 	position: absolute;
 	top: 0px;
 	left: 171px;
+	background-image: url('images/8-i.png');
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-
-#s8facebook:hover > img {
-	content: url('images/8-f-active.png');
-}
-#s8twitter:hover > img {
-	content: url('images/8-t-active.png');
-}
-#s8pinterest:hover > img {
-	content: url('images/8-p-active.png');
-}
-#s8insta:hover > img {
-	content: url('images/8-i-active.png');
+#s8facebook:hover {
+	background-image: url('images/8-f-active.png');
 }
 
+#s8twitter:hover {
+	background-image: url('images/8-t-active.png');
+}
+
+#s8pinterest:hover {
+	background-image: url('images/8-p-active.png');
+}
+
+#s8insta:hover {
+	background-image: url('images/8-i-active.png');
+}
 
 .tile8 {
 	position: absolute;
@@ -868,13 +887,9 @@ div.panel.show {
 	opacity: 0.8;
 }
 
-
-
 .tile8:hover .s8media {
 	visibility: visible;
 }
-
-
 
 .tileContainer8:hover .s8media {
 	visibility: visible;
@@ -887,4 +902,21 @@ div.panel.show {
 
 .tileContainer8:hover .coverPicture {
 	opacity: 0.8;
+}
+
+
+/*SECTION 9*/
+
+#section9 {
+	background-color: #f8f8f8;
+	padding: 50px;
+}
+
+#section9 .containerMy {
+	max-width: 1300px;
+}
+
+#section9 img {
+	margin-left: 40px;
+	margin-right: 40px;
 }
