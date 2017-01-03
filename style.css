@@ -817,11 +817,6 @@ div.panel.show {
 	background-color: #f38181;
 }
 
-
-/*.s8mediaItem img {
-	margin-top: 15px;
-}*/
-
 #s8facebook {
 	position: absolute;
 	top: 0px;
@@ -920,3 +915,124 @@ div.panel.show {
 	margin-left: 40px;
 	margin-right: 40px;
 }
+
+/*SECTION 10*/
+#section10 .containerMy {
+	padding-bottom: 80px;
+	max-width: 1920px;
+	border: none;
+	font-size: 0;
+}
+
+#section10 .heading {
+	margin-top: 80px;
+}
+
+#section10 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#section10 .article {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	max-width: 880px;
+	line-height: 22px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.outerTileContainer10 {
+	max-width: 960px;
+	display: inline-block;
+
+}
+.tileContainer10 {
+	height: 390px;
+	width: 480px;
+	/*width: 50%;*/
+	/*background-color: #95e1d3;*/
+	position: relative;
+	display: inline-block;
+
+}
+
+/*.big {
+	height: 780px;
+		width: 480px;
+}*/
+
+.bgPicture {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.coverPicture {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.tile10 .iconPicture {
+	position: absolute;
+	top: 155px;
+	left: 225px;
+}
+.tile10 h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	text-transform: uppercase;
+	color: white;
+	top: 200px;
+	left: 135px;
+	visibility: hidden;
+}
+
+
+.tile10 p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	position: absolute;
+	color: white;
+	top: 230px;
+	left: 165px;
+	visibility: hidden;
+}
+
+
+
+.tile10 {
+	position: absolute;
+}
+
+.tile10:hover>.coverPicture {
+	opacity: 0.8;
+}
+.tile10:hover> .iconPicture {
+	visibility: visible;
+}
+.tile10:hover> h4 {
+	visibility: visible;
+}
+.tile10:hover> p {
+	visibility: visible;
+}
+
+
+
+/*
+.tileContainer8:hover .coverPicture {
+	opacity: 0.8;
+}*/
