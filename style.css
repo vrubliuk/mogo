@@ -957,7 +957,8 @@ div.panel.show {
 }
 .tileContainer10 {
 	height: 390px;
-	width: 480px;
+	width: 50%;
+	min-width: 300px;
 	/*width: 50%;*/
 	/*background-color: #95e1d3;*/
 	position: relative;
