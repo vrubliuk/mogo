@@ -1096,7 +1096,6 @@ div.panel.show {
 #section12 .containerMy {
 	padding-bottom: 80px;
 	font-size: 0;
-
 }
 
 #section12 .heading {
@@ -1128,7 +1127,6 @@ div.panel.show {
 	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
-
 }
 
 .tileImage12 {
@@ -1172,12 +1170,16 @@ div.panel.show {
 	color: #999999;
 	max-width: 370px;
 }
+
+
 /*SECTION 13*/
 
 #section13 {
 	background-color: white;
 }
+
 #section13 .containerMy {
+	max-width: 1230px;
 	padding-bottom: 80px;
 	font-size: 0;
 }
@@ -1200,16 +1202,117 @@ div.panel.show {
 	margin-bottom: 30px;
 }
 
+.tileContainer13 {
+	display: inline-block;
+	max-width: 380px;
+	text-align: left;
+	margin: 13px;
+}
+
+.tile13 {
+	height: 240px;
+	width: 380px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#tile131 {
+	background-image: url('images/13-1.png');
+}
+
+#tile132 {
+	background-image: url('images/13-2.png');
+}
+
+#tile133 {
+	background-image: url('images/13-3.png');
+}
+
+.date13 {
+	text-align: center;
+	width: 60px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-color: #95e1d3;
+	position: relative;
+	top: 160px;
+	left: -10px;
+}
+
+.day13 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+}
+
+.month13 {
+	margin-top: -3px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 100;
+	color: white;
+}
+
+.name13 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.content13 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #999999;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#section13 hr {
+	border: solid 1px #e5e5e5;
+	border-top: 0;
+}
+
+.info13 {
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 100;
+	color: #999999;
+	float: left;
+}
+
+.info13 img,
+.info13 div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.comment13 {
+	margin-left: 15px;
+}
+
+
 /*SECTION 14*/
+
 #section14 {
 	background-image: url('images/14-bg.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 #section14 .containerMy {
 	min-height: 200px;
 }
+
 #section14 img {
 	margin-top: 55px;
 }
