@@ -171,3 +171,11 @@ $(document).ready(function () {
     $("#myCarousel11").carousel(2);
   });
 });
+
+// SMOOTH SCROLLING WHEN CLICKING AN ANCHOR LINK
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 700);
+    return false;
+});
