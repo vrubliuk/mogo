@@ -1096,6 +1096,7 @@ div.panel.show {
 #section12 .containerMy {
 	padding-bottom: 80px;
 	font-size: 0;
+
 }
 
 #section12 .heading {
@@ -1127,6 +1128,7 @@ div.panel.show {
 	margin-bottom: 40px;
 	margin-left: 20px;
 	margin-right: 20px;
+
 }
 
 .tileImage12 {
@@ -1169,4 +1171,55 @@ div.panel.show {
 	line-height: 25px;
 	color: #999999;
 	max-width: 370px;
+}
+/*SECTION 13*/
+
+#section13 {
+	background-color: white;
+}
+#section13 .containerMy {
+	padding-bottom: 80px;
+	font-size: 0;
+}
+
+#section13 .heading {
+	margin-top: 80px;
+}
+
+#section13 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #333333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#section13>div>div.line {
+	margin-bottom: 30px;
+}
+
+/*SECTION 14*/
+#section14 {
+	background-image: url('images/14-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#section14 .containerMy {
+	min-height: 200px;
+}
+#section14 img {
+	margin-top: 55px;
+}
+
+#section14 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #f38181;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
