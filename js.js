@@ -94,7 +94,7 @@ $(function () {
   $('.test').jScrollPane();
 });
 
-//BOOTSTRAP CAROUSEL
+//BOOTSTRAP CAROUSEL SECTION 7
 $(document).ready(function () {
   // Activate Carousel
   $("#myCarousel").carousel("pause");
@@ -144,3 +144,30 @@ window.onload = function () {
   }
   return;
 };
+
+//BOOTSTRAP CAROUSEL SECTION 11
+$(document).ready(function () {
+  // Activate Carousel
+  $("#myCarousel11").carousel("pause");
+
+  // Go to the previous item
+  $("#myBtn3").click(function () {
+    $("#myCarousel11").carousel("prev");
+  });
+
+  // Go to the next item
+  $("#myBtn4").click(function () {
+    $("#myCarousel11").carousel("next");
+  });
+
+  // Enable Carousel Indicators
+  $(".item1").click(function () {
+    $("#myCarousel11").carousel(0);
+  });
+  $(".item2").click(function () {
+    $("#myCarousel11").carousel(1);
+  });
+  $(".item3").click(function () {
+    $("#myCarousel11").carousel(2);
+  });
+});

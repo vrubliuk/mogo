@@ -711,7 +711,7 @@ div.panel.show {
 	bottom: 0;
 }
 
-#s7breakspace {
+.s7breakspace {
 	height: 40px;
 	width: 100%;
 }
@@ -920,7 +920,7 @@ div.panel.show {
 /*SECTION 10*/
 
 #section10 .containerMy {
-	padding-bottom: 80px;
+	/*padding-bottom: 80px;*/
 	max-width: 1920px;
 	border: none;
 	font-size: 0;
@@ -1059,4 +1059,49 @@ div.panel.show {
 .coverTile10:hover h4,
 .coverTile10:hover p {
 	visibility: visible;
+}
+
+/*SECTION 11*/
+#section11 {
+	background-color: white;
+}
+
+#section11 .item img {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#section11 .carouselParagraph {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 65px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#section11 .carouselParagraph p {
+	/*font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	line-height: 35px;
+	color: #b6b6b6;
+	font-style: italic;*/
+	max-width: 790px;
+	/*text-align: left;
+	margin-bottom: 15px;*/
+}
+
+.carouselParagraph .line {
+	margin-top: 20px;
+	margin-right: 15px;
+	float: left;
+}
+
+.carouselParagraph span {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	color: #333333;
+	float: left;
 }
