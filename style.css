@@ -1061,47 +1061,112 @@ div.panel.show {
 	visibility: visible;
 }
 
+
 /*SECTION 11*/
+
 #section11 {
 	background-color: white;
 }
 
 #section11 .item img {
-	display: inline-block;
 	margin-top: 40px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
 #section11 .carouselParagraph {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 65px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
 #section11 .carouselParagraph p {
-	/*font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 24px;
-	line-height: 35px;
-	color: #b6b6b6;
-	font-style: italic;*/
 	max-width: 790px;
-	/*text-align: left;
-	margin-bottom: 15px;*/
 }
 
-.carouselParagraph .line {
-	margin-top: 20px;
-	margin-right: 15px;
-	float: left;
+
+/*SECTION 12*/
+
+#section12 {
+	background-image: url('images/12-bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.carouselParagraph span {
-	font-family: 'Kaushan Script', cursive;
-	font-size: 24px;
+#section12 .containerMy {
+	padding-bottom: 80px;
+	font-size: 0;
+}
+
+#section12 .heading {
+	margin-top: 80px;
+}
+
+#section12 h3 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
 	color: #333333;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+#section12>div>div.line {
+	margin-bottom: 30px;
+}
+
+.tile12,
+.tileImage12,
+.tileText12 {
+	display: inline-block;
+}
+
+.tile12 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tileImage12 {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.tileText12 {
+	text-align: left;
+	vertical-align: top;
+}
+
+.name12 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.department12 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 100;
+	color: #696969;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.tile12 .line {
 	float: left;
+}
+
+.content12 {
+	margin-top: 30px;
+	clear: both;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	color: #999999;
+	max-width: 370px;
 }
