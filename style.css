@@ -1429,10 +1429,12 @@ div.panel.show {
 	font-weight: 100;
 	width: 230px;
 	padding-left: 20px;
+	height: 38px;
 }
 
 .form15 button {
 	width: 150px;
+	height: 40px;
 	margin-left: -5px;
 	line-height: 40px;
 	border: none;
@@ -1441,6 +1443,7 @@ div.panel.show {
 	font-weight: 700;
 	font-size: 14px;
 	color: white;
+	text-transform: uppercase;
 }
 
 .form15 button:hover {
