@@ -359,6 +359,7 @@ body {
 }
 
 .tile3 {
+	vertical-align: top;
 	display: inline-block;
 	height: 270px;
 	width: 235px;
@@ -1207,6 +1208,7 @@ div.panel.show {
 	max-width: 380px;
 	text-align: left;
 	margin: 13px;
+	vertical-align: top;
 }
 
 .tile13 {
