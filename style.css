@@ -920,7 +920,6 @@ div.panel.show {
 /*SECTION 10*/
 
 #section10 .containerMy {
-	/*padding-bottom: 80px;*/
 	max-width: 1920px;
 	border: none;
 	font-size: 0;
@@ -958,6 +957,7 @@ div.panel.show {
 	min-width: 600px;
 	width: 50%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 .middleTileContainer10 {
